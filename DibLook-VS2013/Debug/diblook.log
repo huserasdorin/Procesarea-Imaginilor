@@ -1,0 +1,34 @@
+﻿Build started 01.03.2016 18:18:04.
+     1>Project "D:\Facultate\AnIII_sem2\Procesarea Imaginilor\Laborator\DibLook-VS2013\diblook.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"Stdafx.h" /Fp".\Debug/diblook.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\VisualStudio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"Stdafx.h" /Fp".\Debug/diblook.pch" /Fo".\Debug/" /Fd".\Debug/vc120.pdb" /FR".\Debug/" /Gd /TP /analyze- /errorReport:prompt dibapi.cpp dibdoc.cpp diblook.cpp dibview.cpp HRTimer.cpp mainfrm.cpp myfile.cpp
+         myfile.cpp
+         mainfrm.cpp
+         HRTimer.cpp
+         dibview.cpp
+         diblook.cpp
+         dibdoc.cpp
+         dibapi.cpp
+         Generating Code...
+       ResourceCompile:
+         S:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo".\Debug\diblook.res" diblook.rc 
+       Link:
+         C:\VisualStudio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/diblook.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:C:\VisualStudio\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:".\Debug/diblook.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:".\Debug\diblook.lib" /MACHINE:X86 /SAFESEH:NO .\Debug\diblook.res
+         .\Debug/dibapi.obj
+         .\Debug/dibdoc.obj
+         .\Debug/diblook.obj
+         .\Debug/dibview.obj
+         .\Debug/HRTimer.obj
+         .\Debug/mainfrm.obj
+         .\Debug/myfile.obj
+         .\Debug/stdafx.obj
+         diblook.vcxproj -> D:\Facultate\AnIII_sem2\Procesarea Imaginilor\Laborator\DibLook-VS2013\.\Debug\diblook.exe
+       BscMake:
+         C:\VisualStudio\VC\bin\bscmake.exe /nologo /o".\Debug/diblook.bsc" .\Debug/dibapi.sbr .\Debug/dibdoc.sbr .\Debug/diblook.sbr .\Debug/dibview.sbr .\Debug/HRTimer.sbr .\Debug/mainfrm.sbr .\Debug/myfile.sbr .\Debug/stdafx.sbr
+     1>Done Building Project "D:\Facultate\AnIII_sem2\Procesarea Imaginilor\Laborator\DibLook-VS2013\diblook.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:23.93
